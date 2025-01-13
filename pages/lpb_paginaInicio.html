@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icono/ICONO_huella.png">
+    <title>Lpbook - Pagina de Inicio</title>
+</head>
+<body class="bodyPaginaInicioLittlepawbook">
+    <header class="headerLittlepawbook" id="myHeader">
+        <div class="contenedorHeaderLittlepawbook">
+            <div class="contenedorHeaderLittlepawbook1">
+                <div class="logoHeaderLittlepawbook">
+                    <a href="/pages/lpb_paginaInicio.html"><img src="/assets/img/Logo_LittlePawBook.png" alt="logo littlepawbook" id="logoHeaderLittlepawbook"></a>
+                </div>
+                <div class="buscarEnLittlepawbook">
+                    <label for="buscarEnLittlepawbook">
+                        <span>
+                            <img src="/assets//icono/iconos_LittlePawBook/icons8-búsqueda-96.png" alt="icono de busqueda" id="iconoHeaderLittlepawbook" class="iconoSearch">
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <div class="contenedorHeaderLittlepawbook2">
+                <nav>
+                    <ul class="listaHeaderLittlepawbook">
+                        <li><a href="/pages/lpb_paginaInicio.html"><img src="/assets/icono/iconos_LittlePawBook/icons8-home-96.png" alt="Inicio" id="iconoHeaderLittlepawbook" class="iconoHeaderMedio"></a></li>
+                        <li><a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-multimedia-96.png" alt="Multimedia" id="iconoHeaderLittlepawbook" class="iconoHeaderMedio"></a></li>
+                        <li><a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-pet-shop-96.png" alt="Tienda" id="iconoHeaderLittlepawbook" class="iconoHeaderMedio"></a></li>
+                        <li><a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-gps-96.png" alt="Localidad" id="iconoHeaderLittlepawbook" class="iconoHeaderMedio"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contenedorHeaderLittlepawbook3">
+                <nav>
+                    <ul class="listaHeaderLittlepawbook">
+                        <li><img src="/assets/icono/iconos_LittlePawBook/icons8-charla-96.png" alt="Chat" id="iconoHeaderLittlepawbook"></li>
+                        <li><img src="/assets/icono/iconos_LittlePawBook/icons8-bell-96.png" alt="Notificaciones" id="iconoHeaderLittlepawbook"></li>
+                        <li><img src="/assets/icono/iconos_LittlePawBook/icons8-huella-96.png" alt="Usuario" id="iconoHeaderLittlepawbook"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <script>
+        window.onscroll = function () {
+            var header = document.getElementById("myHeader");
+            if (window.pageYOffset > 0) {
+                header.classList.add("shrink");
+            } else {
+                header.classList.remove("shrink");
+            }
+        };
+    </script>
+    <main>
+        <div class="contenedorMainLittlepawbook">
+            <div class="contenedorMainLittlepawbook1">
+                <nav>
+                    <ul class="listaMainLittlepawbook">
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-perfil-96.png" alt="huella" id="iconoMainLittlepawbook">Mi Perfil</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-amigos-96.png" alt="perro y gato" id="iconoMainLittlepawbook">Amigos</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-grupo-de-animales-96.png" alt="animales" id="iconoMainLittlepawbook">Grupos</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-carrete-instagram-96.png" alt="carrete" id="iconoMainLittlepawbook">Reels</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-favorito-96.png" alt="favoritos" id="iconoMainLittlepawbook">Guardado</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-calendario-96.png" alt="calendario" id="iconoMainLittlepawbook">Eventos</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-crowdfunding-96.png" alt="dinero" id="iconoMainLittlepawbook">Recaudación de fondos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contenedorMainLittlepawbook2">
+                <div class="boxPublicacionesPopulares">
+                    <div class="publicacionesPopulares">
+                        1
+                    </div>
+                    <div class="publicacionesPopulares">
+                        2
+                    </div>
+                    <div class="publicacionesPopulares">
+                        3
+                    </div>
+                    <div class="publicacionesPopulares">
+                        4
+                    </div>
+                </div>
+                <div class="publicarEstado">
+                    <div class="publicarEstadoBox1">
+                        <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-perro-96.png" alt="foto de perfil" id="iconoMainLittlepawbook"><input type="text" name="estado" id="estado" placeholder="  ¿Qué estás haciendo...?" class="inputs"></a>
+                    </div>
+                    <div class="publicarEstadoBox2">
+                        <div>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-video-en-vivo-96.png" alt="video" id="iconoMainLittlepawbook">Video en vivo</a>
+                        </div>
+                        <div>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-foto-video-96.png" alt="foto/video" id="iconoMainLittlepawbook">Foto/video</a>
+                        </div>
+                        <div>
+                            <a href=""><img src="/assets/icono/iconos_LittlePawBook/icons8-parque-para-perros-96.png" alt="mascota jugando" id="iconoMainLittlepawbook">Sentimiento/actividad</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="publicacionesBlog">
+                    <div class="encabezadoPublicaciones">
+                        <div class="fotoYnombreEncabezado">
+                            <a href=""><img src="/assets/img/img_Littlepawbook/IMG_20241029_083700580.jpg" alt="" id="iconoMainLittlepawbook">Patita</a>
+                        </div>
+                        <div class="opcionesEncabezado">
+
+                        </div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+                <div class="publicacionesBlog">
+                    "contenido"
+                </div>
+            </div>
+            <div class="contenedorMainLittlepawbook3">
+                <div class="contenedorPublicidades">
+                    "publicidad1"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad2"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad3"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad4"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad5"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad6"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad7"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad8"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad9"
+                </div>
+                <div class="contenedorPublicidades">
+                    "publicidad10"
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footerPaginaInicio">
+        <div class="contenedorFooterLittlepawbook">
+            <p>LittlePawBook es propiedad de <a href="/index.html">Asistiendo Patitas</a>, cualquier similitud con otra red social es pura casualidad.</p>
+            <br>
+            <p>© Copyright 2025 | Todos los derechos reservados</p>
+            <p id="firma">Diseño web: Leonardo Jofré</p>    
+        </div>
+    </footer>
+</body>
+</html>

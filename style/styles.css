@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header:not(.headerLittlepawbook) {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgb(239, 172, 38) 0%, rgb(239, 172, 38) 0%, rgb(242, 69, 53) 100%, rgb(242, 69, 53) 100%);
+    transition: all 1.5s ease;
+    z-index: 5;
+}
+
+.header.shrink {
+    padding: 0vh;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .8), 0px 8px 16px rgba(0, 0, 0, .8);
+    border: none;
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+.header:hover {
+    opacity: 100%;
+    transition: 0.1s;
+}
+
+#header__logo, #logoMercadoPago {
+    height: 3.5em;
+}
+
+.header__icono, .tareas_icono, .requisito__icono {
+    height: 2.5em;
+}
+
+.header__logo:hover, #footer_logo:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(235, 208, 208);
+    font-size: 1em;
+    font-weight: 900;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.header a:hover {
+    transition: 0.3s;
+    color: white;
+}
+
+.header a.active {
+    color: white;
+}
+
+#littlePawBook {
+    width: max-content;
+    height: 2.5em;
+    padding: 1vh;
+    background-color: #0866ff;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    opacity: 70%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .9), 0px 8px 16px rgba(0, 0, 0, .9);
+}
+
+/* main */
+
+.boton {
+    width: max-content;
+    height: auto;
+    padding: 2vh;
+    margin: 2vh;
+    background-color: rgb(242, 69, 53);
+    color: white;
+    font-weight: bolder;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+    opacity: 90%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.boton, .anuncios__anuncio1, .anuncios__anuncio2, .anuncios__anuncio3, .anuncios__anuncio4, hr, .anuncios_tareasHaceteAmigo, .anuncios__requisitosAdopcion {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .5), 0px 8px 16px rgba(0, 0, 0, .5);
+}
+
+.boton:hover {
+    opacity: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .9), 0px 8px 16px rgba(0, 0, 0, .9);
+}
+
+/* main__portada */
+
+.main__portada {
+    background: linear-gradient(#f24536 0%, rgb(242, 69, 53) 0%, rgb(239, 172, 38) 100%, rgb(239, 172, 38) 100%);
+}
+
+.portada__titulo {
+    text-align: center;
+    font-size: 5em;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    text-align: center; 
+}
+
+.portada__parrafo {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.portada__boton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portada__perroContacto {
+    width: 40%;
+}
+
+/* main_contenido */
+
+.separadorDeContenido {
+    border: none;
+    height: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(242, 69, 53);
+}
+
+.contenido__subtitulo {
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.anuncios_subtitulo {
+    font-size: 25px;
+}
+
+.anuncios {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.anuncios__icono {
+    height: 2em;
+}
+
+.anuncios__img {
+    width: 100%;
+    height: auto;
+}
+
+.anuncios__anuncio1, .anuncios__anuncio2, .anuncios__anuncio3, .anuncios__anuncio4, .anuncios__imagen, .anuncios__pagoDebito, .anuncios_articulosLeyMaltratoAnimal, .footer__iconosContacto, .footer__parrafo, .footer__logo, .footer_pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.anuncios__formularioContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+.inputs {
+    height: 5vh;
+    width: 60vh;
+    border-radius: 6px;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    border-top: none;
+}
+
+#mensaje {
+    height: 15vh;
+}
+
+/* footer */
+
+.footer__contacto {
+    background-image: url(/assets/img/backgroundFooter.png);
+    background-size: cover;
+}
+
+#footer_logo {
+    height: 18vh;
+}
+
+.footer__iconos {
+    height: 8vh;
+    margin: 1vh;
+}
+
+/* media queries */
+
+@media (max-width: 1400px) {
+
+    .header a {
+        font-size: 0.8em;
+        padding-bottom: 1vh;
+    }
+    
+    .anuncios {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .header.shrink {
+        opacity: 100%;
+    }
+
+    .header a {
+        font-size: 0.6em;
+        padding-bottom: 1vh;
+    }
+
+    .anuncios, .anuncios__formularioContacto {
+        font-size: 1em;
+    }
+
+    .portada__titulo {
+        font-size: 3em;
+    }
+
+    .portada__parrafo {
+        font-size: 1.2em;
+    }
+
+    .contenido__subtitulo {
+        font-size: 35px;
+    }
+
+    .anuncios_subtitulo {
+        font-size: 25px;
+    }
+
+    .boton {
+        height: 2;
+        font-size: 1em;
+    }
+
+    .footer__iconos {
+        height: 6vh;
+    }
+
+    #footer_logo {
+        height: 14vh;
+    }
+
+    .footer_pie p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 570px) {
+    .header__nav a span, .anuncios__img {
+        display: none;
+    }
+
+    .anuncios, .anuncios__formularioContacto {
+        font-size: 0.8em;
+    }
+
+    .portada__titulo {
+        font-size: 2em;
+    }
+
+    .portada__parrafo {
+        font-size: 1em;
+    }
+
+    .contenido__subtitulo {
+        font-size: 25px;
+    }
+
+    .anuncios_subtitulo {
+        font-size: 20px;
+    }
+
+    .boton {
+        height: 1;
+        font-size: 0.8em;
+    }
+
+    .inputs {
+        height: 5vh;
+        width: 50vh;
+    }
+
+    .footer__iconos {
+        height: 4vh;
+    }
+
+    #footer_logo {
+        height: 10vh;
+    }
+
+    .footer_pie p {
+        font-size: 8px;
+    }
+}
+
+.img__trabajandoEnLaSeccion {
+    width: auto;
+    height: 40em;
+}
