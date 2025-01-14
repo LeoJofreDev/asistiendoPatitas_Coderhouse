@@ -318,7 +318,7 @@
 
     .inputs {
         height: 5vh;
-        width: 50vh;
+        width: 40vh;
     }
 
     .footer__iconos {
@@ -326,7 +326,7 @@
     }
 
     #footer_logo {
-        height: 10vh;
+        height: 8vh;
     }
 
     .footer_pie p {
