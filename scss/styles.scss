@@ -1,7 +1,7 @@
 @use 'layout' ;
-@use 'mediaqueries' ;
 @use 'iconosLogos' ;
 @use 'botones' ;
+@use 'mediaqueries' ;
 
 .boton, .anuncios__anuncio1, .anuncios__anuncio2, .anuncios__anuncio3, .anuncios__anuncio4, hr, .anuncios_tareasHaceteAmigo, .anuncios__requisitosAdopcion {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, .5), 0px 8px 16px rgba(0, 0, 0, .5);

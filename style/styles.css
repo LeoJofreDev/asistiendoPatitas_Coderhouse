@@ -69,7 +69,7 @@
 }
 
 #portada__perroContacto {
-  width: 40%;
+  width: 33%;
 }
 
 /* main_contenido */
@@ -144,6 +144,73 @@
 .footer__contacto {
   background-image: url(/assets/img/backgroundFooter.png);
   background-size: cover;
+}
+
+/* iconos & logos */
+#header__logo, #logoMercadoPago {
+  height: 3.5em;
+}
+
+.header__icono, .tareas_icono, .requisito__icono {
+  height: 2.5em;
+}
+
+.header__logo:hover, #footer_logo:hover {
+  transition: 1s;
+  transform: scale(1.05);
+}
+
+.anuncios__icono {
+  height: 2em;
+}
+
+#footer_logo {
+  height: 18vh;
+}
+
+.footer__iconos {
+  height: 8vh;
+  margin: 1vh;
+}
+
+/* boton littlePawBook */
+#littlePawBook {
+  width: max-content;
+  height: 2.5em;
+  padding: 1vh;
+  background-color: #0866ff;
+  color: white;
+  font-weight: bolder;
+  font-size: 1em;
+  opacity: 70%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9), 0px 8px 16px rgba(0, 0, 0, 0.9);
+}
+
+/* botones */
+.boton {
+  width: max-content;
+  height: auto;
+  padding: 2vh;
+  margin: 2vh;
+  background-color: rgb(242, 69, 53);
+  color: white;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2em;
+  opacity: 90%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  opacity: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9), 0px 8px 16px rgba(0, 0, 0, 0.9);
 }
 
 /* media queries */
@@ -221,7 +288,7 @@
     width: 40vh;
   }
   .footer__iconos {
-    height: 4vh;
+    height: 5vh;
   }
   #footer_logo {
     height: 8vh;
@@ -230,73 +297,6 @@
     font-size: 8px;
   }
 }
-/* iconos & logos */
-#header__logo, #logoMercadoPago {
-  height: 3.5em;
-}
-
-.header__icono, .tareas_icono, .requisito__icono {
-  height: 2.5em;
-}
-
-.header__logo:hover, #footer_logo:hover {
-  transition: 1s;
-  transform: scale(1.05);
-}
-
-.anuncios__icono {
-  height: 2em;
-}
-
-#footer_logo {
-  height: 18vh;
-}
-
-.footer__iconos {
-  height: 8vh;
-  margin: 1vh;
-}
-
-/* boton littlePawBook */
-#littlePawBook {
-  width: max-content;
-  height: 2.5em;
-  padding: 1vh;
-  background-color: #0866ff;
-  color: white;
-  font-weight: bolder;
-  font-size: 1em;
-  opacity: 70%;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9), 0px 8px 16px rgba(0, 0, 0, 0.9);
-}
-
-/* botones */
-.boton {
-  width: max-content;
-  height: auto;
-  padding: 2vh;
-  margin: 2vh;
-  background-color: rgb(242, 69, 53);
-  color: white;
-  font-weight: bolder;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.2em;
-  opacity: 90%;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.boton:hover {
-  opacity: 100%;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9), 0px 8px 16px rgba(0, 0, 0, 0.9);
-}
-
 .boton, .anuncios__anuncio1, .anuncios__anuncio2, .anuncios__anuncio3, .anuncios__anuncio4, hr, .anuncios_tareasHaceteAmigo, .anuncios__requisitosAdopcion {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
