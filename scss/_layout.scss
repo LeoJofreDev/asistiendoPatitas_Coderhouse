@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header:not(.headerLittlepawbook) {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgb(239, 172, 38) 0%, rgb(239, 172, 38) 0%, rgb(242, 69, 53) 100%, rgb(242, 69, 53) 100%);
+    transition: all 1.5s ease;
+    z-index: 5;
+
+    a {
+        text-decoration: none;
+        color: rgb(235, 208, 208);
+        font-size: 1em;
+        font-weight: 900;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    }
+
+    a:hover {
+        transition: 0.3s;
+        color: white;
+    }
+
+    a.active {
+        color: white;
+    }
+}
+
+.header.shrink {
+    padding: 0vh;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .8), 0px 8px 16px rgba(0, 0, 0, .8);
+    border: none;
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+.header:hover {
+    opacity: 100%;
+    transition: 0.1s;
+}
+
+/* main__portada */
+
+.main__portada {
+    background: linear-gradient(#f24536 0%, rgb(242, 69, 53) 0%, rgb(239, 172, 38) 100%, rgb(239, 172, 38) 100%);
+}
+
+.portada__titulo {
+    text-align: center;
+    font-size: 5em;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    text-align: center; 
+}
+
+.portada__parrafo {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.portada__boton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portada__perroContacto {
+    width: 40%;
+}
+
+/* main_contenido */
+
+.separadorDeContenido {
+    border: none;
+    height: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(242, 69, 53);
+}
+
+.contenido__subtitulo {
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.anuncios_subtitulo {
+    font-size: 25px;
+}
+
+.anuncios {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.anuncios__img {
+    width: 100%;
+    height: auto;
+}
+
+.anuncios__anuncio1, .anuncios__anuncio2, .anuncios__anuncio3, .anuncios__anuncio4, .anuncios__imagen, .anuncios__pagoDebito, .anuncios_articulosLeyMaltratoAnimal, .footer__iconosContacto, .footer__parrafo, .footer__logo, .footer_pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.anuncios__formularioContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+.inputs {
+    height: 5vh;
+    width: 60vh;
+    border-radius: 6px;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    border-top: none;
+}
+
+#mensaje {
+    height: 15vh;
+}
+
+/* footer */
+
+.footer__contacto {
+    background-image: url(/assets/img/backgroundFooter.png);
+    background-size: cover;
+}

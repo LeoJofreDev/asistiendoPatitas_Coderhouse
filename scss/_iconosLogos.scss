@@ -1,0 +1,27 @@
+/* iconos & logos */
+
+#header__logo, #logoMercadoPago {
+    height: 3.5em;
+}
+
+.header__icono, .tareas_icono, .requisito__icono {
+    height: 2.5em;
+}
+
+.header__logo:hover, #footer_logo:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.anuncios__icono {
+    height: 2em;
+}
+
+#footer_logo {
+    height: 18vh;
+}
+
+.footer__iconos {
+    height: 8vh;
+    margin: 1vh;
+}
