@@ -1,16 +1,16 @@
 /* iconos & logos */
 
-#header__logo, #logoMercadoPago {
+#header__logo {
+    height: 3.5em;
+    animation: vibrate 5s infinite 3s;
+}
+
+#logoMercadoPago {
     height: 3.5em;
 }
 
 .header__icono, .tareas_icono, .requisito__icono {
     height: 2.5em;
-}
-
-.header__logo:hover, #footer_logo:hover {
-    transition: 1s;
-    transform: scale(1.05);
 }
 
 .anuncios__icono {
@@ -19,6 +19,7 @@
 
 #footer_logo {
     height: 18vh;
+    animation: vibrate 5s infinite 3s;
 }
 
 .footer__iconos {

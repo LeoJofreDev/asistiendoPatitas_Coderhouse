@@ -20,15 +20,6 @@
         font-weight: 900;
         font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     }
-
-    a:hover {
-        transition: 0.3s;
-        color: white;
-    }
-
-    a.active {
-        color: white;
-    }
 }
 
 .header.shrink {
@@ -37,11 +28,6 @@
     border: none;
     border-radius: 6px;
     opacity: 80%;
-}
-
-.header:hover {
-    opacity: 100%;
-    transition: 0.1s;
 }
 
 /* main__portada */
